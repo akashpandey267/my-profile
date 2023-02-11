@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my profile</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+   
+    <div class="hero" id="home"> 
+        <nav>
+            <div data-aos="zoom-in-right">
+      <h2 class="my"><span>my</span>profile</h2></div>
+      <div data-aos="zoom-out-left">
+      <ul>
+            <li><a href="#home">home</li></a>
+            <li><a href="#about"> about</li></a>
+            <li><a href="#"> contact</li></a>
+            <li><a href="#"> skill</li></a>
+        </ul>
+    </div>
+    </nav>
+    
+<div class="hy">
+<div class="img"> 
+    <div data-aos="fade-up-left">
+            <img src="akash.png" alt="img"> </div>
+        </div>
+    <div class="content">
+        
+        <div data-aos="fade-right">
+        <h4 >hello, my name is </h4>
+        <h1>akash <span> pandey</span></h1>
+        
+        <h3>i'am a web developer</h3></div>
+        <div class="newslatter">
+            <form class="form">
+                <div data-aos="zoom-out-up">
+             <input class="hello" type="text" id="email" placeholder="enter your rmail">
+             <input type="submit" name="submit" value="lets start">   
+            </div>
+            </form>
+
+        </div>
+   
+
+
+    </div>
+    </div> 
+    <div>
+ 
+    </div>
+<!---------about---------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    
+<div data-aos="zoom-in">
+                <img src="akash.jpeg"></div>
+            </div>
+             
+
+                <div class="about-col-1">
+                    <div data-aos="fade-up-left">
+                <h1 class="sub-titile">about me</h1>
+                <h3 class="hello">Web design is undoubtedly one of the most creative professions to pursue. It’s a blend of technical capabilities and artistic skills. It is a rewarding career, not only to just pay the bills, but to have the freedom to work from anywhere. 
+
+                    At the same time, like every profession in the world, web design can feel monotonous at times. Many designers feel a “lack of inspiration” and that starts reflecting in their designs.</h3>
+                
+                 <div class="tab-titile">
+                <p class="tab-links active-link" onclick="opentab('skills')">skill</p>
+                <p class="tab-links"  onclick="opentab('education')">education</p>
+                <p class="tab-links"  onclick="opentab('experience')">experience</p>
+            </div></div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>figma</span><br>designing web/app interfaces</li>
+                    <li><span>web development</span><br>web app development</li>
+                    <li><span>appn development</span><br>building android app</li>
+                    
+
+                </ul> 
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>bca </span><br>2nd year</li>
+                    <li><span>from</span><br> sam college bhopal</li>
+                     
+                    
+
+                </ul> 
+            </div>
+            <tab class="tab-contents" id="experience">
+                <ul>
+                    <li><span>web development</span><br>working on college web site</li>
+                    <li><span>app development</span><br>complete a calcolator app</li>
+                     
+                    
+
+                </ul> 
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+
+      var tablinks = document.getElementsByClassName("tab-link");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+    </script>
+</body>
+</html>

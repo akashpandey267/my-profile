@@ -137,8 +137,12 @@ h4{
 
   
 @media only screen and (max-width: 600px) {
+    
+    body{
+    width: 100%;
+    }
     nav{
-        width: 90%;
+        width: 100%;
     }
      
     nav ul li{

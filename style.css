@@ -151,7 +151,7 @@ h4{
 }
 .about-col-1 img{
     filter: drop-shadow(3px 3px 1px rgb(245, 78, 78));
-    margin-top: 30px;
+    margin-top: 21px;
     
 width: 78%;
 height: 70vh;
@@ -283,7 +283,7 @@ margin-top: 0.9px;
         margin-right: 22px;
      }
      .about-col-1 img{
-        margin-top: 30px;
+        margin-top: 20px;
         margin-left: 5px;
         width: 130%;
         height: 35vh;

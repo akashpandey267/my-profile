@@ -13,11 +13,11 @@
  body{
     background-size: cover;
     background-attachment: fixed;
-    filter: drop-shadow(3px 3px 1px rgb(245, 78, 78));
+   
     background-color: #000;
  }
  nav{
-filter: drop-shadow(8px 8px 4px black);
+filter: drop-shadow(8px 8px 4px red);
 background-color: red;
 height: 90px;
 width: 100%;
@@ -29,13 +29,14 @@ width: 100%;
     padding-right: 2%;
  }
 .my{
-
+    
     color: white;
     font-size: 30px;
     letter-spacing: 1px;
     word-spacing: 6px;
     cursor: pointer;
 }
+ 
 .my span{
     color:  black;
 }
@@ -65,7 +66,7 @@ width: 100%;
 display: flex;
 }
 .img img{
- 
+    filter: drop-shadow(3px 3px 1px rgb(245, 78, 78));
  margin-top: 68%;
 margin-left: 250%;
 background-size: cover;
@@ -80,19 +81,22 @@ justify-content: space-around
     transform: translateY(-50%);
 }
 h1{
+    filter: drop-shadow(3px 3px 1px rgb(245, 78, 78));
     color: white;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
 span{
-    color: rgb(233, 71, 71);
+    color: rgb(156, 2, 2);
 }
 h3{
+    
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
 }
 h4{
+     
     color: white;
     letter-spacing: 2px;
     font-size: 20px;
@@ -146,6 +150,7 @@ h4{
 
 }
 .about-col-1 img{
+    filter: drop-shadow(3px 3px 1px rgb(245, 78, 78));
     margin-top: 30px;
     
 width: 78%;

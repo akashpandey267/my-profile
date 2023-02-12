@@ -219,9 +219,7 @@ border-radius: 15px;
     body{
         width: 100%;
     }
-    .hero{
-        margin-top: 10px;
-    }
+    
     .my{
         margin-left: 0;
     }
@@ -252,7 +250,8 @@ border-radius: 15px;
         margin-top: 55%;
     }
     .hy{
-width: 80%;
+width: 100%;
+margin-top: 0.9px;
     }
     .newslatter form{
         width: 100%;
